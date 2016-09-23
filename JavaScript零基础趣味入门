@@ -53,3 +53,19 @@ function canyu(){
     document.write('加油')
   };
 }
+# 将字号图片放大
+<!DOCTYPE html>
+<head>
+ <title>将字号图片放大</title>
+   <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+  <img src="http://obasals2h.bkt.clouddn.com/hw_bg2.png" alt="图片" style="border:none;width:300px;height:300px" />
+ <input type="button" name="name" value="放大图片">
+ <h1>文字</h1>
+ <p>
+   可以控制视窗播放器开、关、待机以及播放视频文件。
+ </p>
+  <input type="button" name="name" value="文字放大">
+</body>
+</html>
