@@ -9,3 +9,29 @@
     document.getElementById('big').style.color='red'
  </script>
 </body>
+# 引入JavaScript
+<script type="text/javascript" src="main.js"></script>
+document.write('xiupi酱')
+alert('上当了')
+# JS调用一个函数
+<!DOCTYPE html>
+<head>
+ <title>JS调用一个函数</title>
+   <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+  A.<input type="button" name="EN" value="非常好" onclick="feichanghao()">
+  B.<input type="button" name="EN" value="一般好" onclick="yibanhao()">
+  C.<input type="button" name="EN" value="很不好">
+</body>
+</html>
+function feichanghao(){
+  document.write('我觉得非常好')
+  alert('很棒')
+}
+function yibanhao(){
+  alert('为什么不点非常好')
+  alert('点非常好')
+  alert('点吧')
+}
+# 来一次交互吧 
