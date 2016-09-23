@@ -1,0 +1,11 @@
+# 初认识JavaScript
+<body>
+  <div id="big">
+    我是
+  </div>
+  <script type="text/javascript">
+    document.write("xiupi酱")
+    document.getElementById('big').style.fontSize='25px'
+    document.getElementById('big').style.color='red'
+ </script>
+</body>
