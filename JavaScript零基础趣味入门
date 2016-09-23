@@ -35,3 +35,21 @@ function yibanhao(){
   alert('点吧')
 }
 # 来一次交互吧 
+<!DOCTYPE html>
+<head>
+ <title>JS调用一个函数</title>
+   <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+<input type="button" value="来一次互动吧！" onclick="canyu()">
+</body>
+</html>
+function canyu(){
+  var banding=confirm('你觉得不是吗？')
+  if(banding==true){
+    document.write('你很棒')
+  }
+  else{
+    document.write('加油')
+  };
+}
